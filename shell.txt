@@ -1,0 +1,10 @@
+COCO数据集:
+python asg2caption.py E:\asg2cap-master\MSCOCO\results\ControlCAP\rgcn.flow.memory\mp.resnet101.ctrl.attn.X_101_32x8d.rgcn.2.lstm.layer.1.hidden.512.tie_embed.embed_first/model.json E:\asg2cap-master\MSCOCO\results\ControlCAP\rgcn.flow.memory\mp.resnet101.ctrl.attn.X_101_32x8d.rgcn.2.lstm.layer.1.hidden.512.tie_embed.embed_first/path.json rgcn.flow.memory  --eval_loss --is_train --num_workers 8
+VisualGenome数据集:
+python asg2caption.py E:\asg2cap-master\VisualGenome\results\CAP.ctrl\rgcn.flow.memory\mp.resnet101.ctrl.attn.X_101_32x8d.rgcn.2.lstm.layer.1.hidden.512.tie_embed/model.json  E:\asg2cap-master\VisualGenome\results\CAP.ctrl\rgcn.flow.memory\mp.resnet101.ctrl.attn.X_101_32x8d.rgcn.2.lstm.layer.1.hidden.512.tie_embed/path.json rgcn.flow.memory  --eval_loss --is_train --num_workers 8
+
+#interface
+python asg2caption.py E:\asg2cap-master\MSCOCO\results\ControlCAP\rgcn.flow.memory\mp.resnet101.ctrl.attn.X_101_32x8d.rgcn.2.lstm.layer.1.hidden.512.tie_embed.embed_first/model.json  E:\asg2cap-master\MSCOCO\results\ControlCAP\rgcn.flow.memory\mp.resnet101.ctrl.attn.X_101_32x8d.rgcn.2.lstm.layer.1.hidden.512.tie_embed.embed_first/path.json rgcn.flow.memory --eval_set tst --num_workers 8
+
+python asg2caption.py E:\asg2cap-master\VisualGenome\results\CAP.ctrl\rgcn.flow.memory\mp.resnet101.ctrl.attn.X_101_32x8d.rgcn.2.lstm.layer.1.hidden.512.tie_embed/model.json  E:\asg2cap-master\VisualGenome\results\CAP.ctrl\rgcn.flow.memory\mp.resnet101.ctrl.attn.X_101_32x8d.rgcn.2.lstm.layer.1.hidden.512.tie_embed/path.json rgcn.flow.memory   --eval_set tst --num_workers 8
+
